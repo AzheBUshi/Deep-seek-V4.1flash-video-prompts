@@ -1,0 +1,13 @@
+# 统一换行符，避免跨平台 diff 噪音
+* text=auto eol=lf
+
+# 二进制文件不参与文本转换
+*.docx binary
+*.xlsx binary
+*.pptx binary
+*.pdf  binary
+*.ttf  binary
+*.otf  binary
+*.png  binary
+*.jpg  binary
+*.mp4  binary
